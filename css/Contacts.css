@@ -1,0 +1,74 @@
+body {
+    background-image: url("../img/salon.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.contact-container p {
+    color: #ffffff;
+    background-color: #0000006b;
+    width: max-content;
+    padding: 1% 2%;
+    border-radius: 20px;
+}
+
+.form-group label {
+    color: #ffffff;
+    background-color: #0000006b;
+    width: max-content;
+    padding: 1% 2%;
+    border-radius: 20px;
+}
+
+#contact-form input, #contact-form textarea { 
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+}
+#contact-form textarea {
+    max-width: 100%;
+    max-height: 200px;
+    height: 200px;
+}
+
+.contact-container {
+    max-width: 900px;
+    margin: 10% 16%;
+    width: 70%; 
+}
+
+.btn {
+    display: inline-block;
+    font-size: 21px;
+    color: #fff;
+    background-color: rgb(66 61 61);
+    border-radius: 20px;
+    padding: 7px 36px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: rgb(119 112 112);
+    color: #333;
+    box-shadow: 0 0 10px 0 #cfcfcf;
+}
+
+iframe {
+    margin: 0 0 -5px 0;
+}

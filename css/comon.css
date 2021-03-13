@@ -1,0 +1,146 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     font-family: 'Roboto_regular';
+ }
+
+/* Навигационное меню */
+ #navigation nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(197 197 197 / 58%);
+    height: 75px;
+    box-shadow: rgb(177 177 177) 0px 5px 10px;
+    position: fixed;
+    top: 0px;
+    backdrop-filter: blur(10px);
+    right: 0px;
+    width: 100%;
+    z-index: 100;
+ }
+
+ #navigation nav > div {
+    margin: 0 10px;
+ }
+ 
+ #navigation nav .left-navbar,  #navigation nav .right-navbar {
+   width: 40%;
+ }
+ 
+ #navigation nav .left-navbar ul {
+   float: right;
+ }
+
+ #navigation .menu-icon .fas {
+    cursor: pointer;
+    display: none;
+}
+
+.header-telnums {
+    display: none;
+    line-height: 1.5;
+}
+
+/* Меню */
+#navigation nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#navigation nav ul a {
+    text-decoration: none;
+    color: #6d6d6d;
+    margin: 0 5px;
+    border-radius: 18px;    
+}
+
+#navigation nav ul a li {
+    padding: 10px 20px;
+    white-space: nowrap;
+} 
+
+#navigation nav ul a:hover {
+    color: #fff;
+    background-color: #777070;
+}
+
+#navigation nav ul .active-link {
+    color: #fff;
+    background-color: #777070;
+}
+
+.close-menu {
+    position: absolute;
+    right: 0;
+    color: #fff;
+    font-size: 30px;
+    margin: 0 15px 0 0;
+    cursor: pointer;
+    display: none;
+}
+
+.open-menu {
+    display: block !important;
+}
+
+/* Логотип */
+.logo img {
+    width: 85px;
+    margin: 0 0 -40px 0;
+    filter: drop-shadow(0px 5px 10px gray);
+}
+
+/* Контент */
+main {
+    margin: 85px 0 0 0;
+}
+
+/* Подвал */
+footer {
+    background-color: #25221f;
+    color: #d2d2d2;
+}
+
+footer .footer-info  {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer .footer-info > div  {
+    width: 30%;
+    margin: 10px 5px;
+    line-height: 23px;
+}
+
+footer .footer-info .share span {
+    margin: 10px;
+}
+.footer-info .share span a:hover {
+    color: #fff !important;
+}
+
+footer .footer-info > div h3  {
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+footer .copyright {
+    border-top: solid 1px #fff;
+    padding: 10px 0;
+}
+
+#share-buttons {
+    text-align: center;
+}
+
+.success-tooltype {
+    position: absolute;
+    font-size: 11px;
+    color: #fff;
+}

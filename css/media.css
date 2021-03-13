@@ -1,0 +1,122 @@
+@media (max-width: 992px) {
+    footer .footer-info > div:first-child  {
+        width: 100%;
+    }
+
+    footer .footer-info > div:not(:first-child)  {
+        width: 45%;
+    }
+
+    #navigation .menu-icon .fas {
+        display: block;
+    }
+
+    .left-navbar, .right-navbar {
+        display: none;
+        position: fixed;
+        background-color: black;
+        left: 0;
+        margin: 0 !important;
+        z-index: 50;
+        padding: 25px 0;
+    }
+
+    .left-navbar ul, .right-navbar ul {
+        flex-direction: column;
+        float: none !important;
+    }
+
+     .left-navbar {
+        top: 0;
+    }
+    
+    .right-navbar {
+        top: 170px;
+        padding-top: 0;
+    }
+
+    #navigation nav ul a {
+        margin: 5px 0;
+    }
+
+    .header-telnums {
+        display: block;
+    }
+
+    .close-menu {
+        display: block;
+    }
+
+    #navigation nav {
+        justify-content: space-between;
+    } 
+
+    #navigation nav div {
+        margin: 0 5%;
+    } 
+    
+    .services-continer a p {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    footer .footer-info > div:not(:first-child) {
+        width: 100%;
+        text-align: center;
+        padding: 0 5%;
+    }
+
+    .services-continer > div {
+        width: 45% !important;
+    }
+
+    #services div img {
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+    }
+
+    .services-img > div {
+        width: 30% !important;
+    }
+
+    #examples > div {
+        width: 30% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .img-sakal img {
+        width: 40% !important;
+    }
+
+    .contact-container {
+        width: 90%;
+    }
+
+    #contact-form textarea {
+        max-height: 120px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    #examples > div {
+        width: 45% !important;
+        margin: 6px 0 !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .services-continer > div {
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 350px) {
+    #examples > div {
+        width: 93% !important;
+        margin: 4px 0 !important
+    }
+}

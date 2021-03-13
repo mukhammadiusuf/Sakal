@@ -1,0 +1,79 @@
+div h1 {
+    padding: 1% 10%;
+    background-color: #dddddd30;
+}
+
+.img-sakal {
+    text-align: center;
+}
+
+.img-sakal img {
+    width: 20%;
+}
+
+.punkts h2 {
+    padding: 0% 10%;
+    margin: 1% 0%;
+}
+
+.punkts p {
+    padding: 0% 10%;
+}
+
+ul {
+    margin: 1% 14%;
+}
+
+
+/* партнеры */
+.part-icon > div {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 80px 0 60px 0;
+	padding: 10px 0;
+	background-color: black;
+}
+.part-icon > div > div {
+	align-self: center;
+	text-align: center;
+}
+
+.part-icon > div img {
+	margin: 10px 15px;
+	
+}
+
+.logo-globus img {
+	width: 75%;
+}
+
+.logo-barberchair img {
+	width: 80%;
+}
+
+.logo-oshstore img {
+	width: 50%;
+}
+
+.logo-mercedes img {
+	width: 80%;
+}
+
+.logo-daniels img {
+	width: 75%;
+}
+
+.logo-andcapone img {
+	width: 70%;
+}
+
+.subtitle-k {
+	margin-left: 27px;
+	padding: 0 0 8px 0;
+	margin-bottom: 10px;
+}
+
+.subtitle-k h2 {
+	color: #444;
+}

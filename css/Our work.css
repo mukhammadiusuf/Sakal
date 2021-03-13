@@ -1,0 +1,27 @@
+main {
+    background-image: url("../img/bg-salon.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    padding: 1% 10%;
+    color: #fff;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+section > div {
+    width: 22%;
+    margin: 10px 0;
+}
+
+section > div img {
+    width: 100%;
+}
