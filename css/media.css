@@ -29,6 +29,13 @@
      .left-navbar {
         top: 0;
     }
+
+    .logo img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
     
     .right-navbar {
         top: 170px;
@@ -114,9 +121,21 @@
     }
 }
 
+@media (max-width: 420px) {
+    .header-telnums {
+        display: none;
+    }
+
+    #contact-form {
+        margin: 0 0 0 -53px;
+    }
+}
+
 @media (max-width: 350px) {
     #examples > div {
         width: 93% !important;
         margin: 4px 0 !important
     }
 }
+
+
